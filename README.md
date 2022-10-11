@@ -41,31 +41,16 @@
 
 ## Задание 1
 ### Реализовать совместную работу и передачу данных в связке Python
-Ход работы:
-- Произвести подготовку данных для работы с алгоритмом линейной регрессии. 10 видов данных были установлены случайным образом, и данные находились в линейной зависимости. Данные преобразуются в формат массива, чтобы их можно было вычислить напрямую при использовании умножения и сложения.
-
-```py
-
-In [ ]:
-#Import the required modules, numpy for calculation, and Matplotlib for drawing
-import numpy as np
-import matplotlib.pyplot as plt
-#This code is for jupyter Notebook only
-%matplotlib inline
-
-# define data, and change list to array
-x = [3,21,22,34,54,34,55,67,89,99]
-x = np.array(x)
-y = [2,22,24,65,79,82,55,130,150,199]
-y = np.array(y)
-
-#Show the effect of a scatter plot
-plt.scatter(x,y)
-
-```
-
-- Определите связанные функции. Функция модели: определяет модель линейной регрессии wx+b. Функция потерь: функция потерь среднеквадратичной ошибки. Функция оптимизации: метод градиентного спуска для нахождения частных производных w и b.
-
+Из приложенного видео, мне удалось настроить среду Unity и Python для работы с GoogleSheets
+Ниже перечислены скриншоты выполненной работы:
+UnitySheets:
+![UnitySheets](https://user-images.githubusercontent.com/95544542/195111448-8f6a531b-4d7b-4fc5-9ae0-25f80e4eafd8.PNG)
+UnityDebug:
+![UnityDebug](https://user-images.githubusercontent.com/95544542/195111467-6d9e5c4f-a919-47f8-9f12-c88fd73c2968.PNG)
+GoogleCloud:
+![GoogleCloud](https://user-images.githubusercontent.com/95544542/195111510-eb3781c0-eb97-488a-a3c8-2d8b2bb9d73a.PNG)
+Python:
+![Python](https://user-images.githubusercontent.com/95544542/195111756-41ce23fb-cf65-422a-a2f1-6f8d3cd00539.PNG)
 
 ## Задание 2
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
