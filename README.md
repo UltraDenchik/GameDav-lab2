@@ -43,12 +43,15 @@
 ### Реализовать совместную работу и передачу данных в связке Python
 Из приложенного видео, мне удалось настроить среду Unity и Python для работы с GoogleSheets
 Ниже перечислены скриншоты выполненной работы:
+
 UnitySheets:
 
 ![UnitySheets](https://user-images.githubusercontent.com/95544542/195111448-8f6a531b-4d7b-4fc5-9ae0-25f80e4eafd8.PNG)
+
 UnityDebug:
 
 ![UnityDebug](https://user-images.githubusercontent.com/95544542/195111467-6d9e5c4f-a919-47f8-9f12-c88fd73c2968.PNG)
+
 GoogleCloud:
 
 ![GoogleCloud](https://user-images.githubusercontent.com/95544542/195111510-eb3781c0-eb97-488a-a3c8-2d8b2bb9d73a.PNG)
